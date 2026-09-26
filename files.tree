@@ -1,0 +1,411 @@
+# File Tree: charleson-hotel-webapp
+
+**Generated:** 9/23/2026, 8:55:09 PM
+**Root Path:** `c:\Users\ryanf\Downloads\code\charleson-hotel-webapp`
+
+```
+├── 📁 flow
+│   └── 📄 signup.drawio
+├── 📁 public
+│   ├── 📁 icons
+│   │   ├── 🖼️ Memoji-01.png
+│   │   ├── 🖼️ Memoji-02.png
+│   │   ├── 🖼️ Memoji-03.png
+│   │   ├── 🖼️ Memoji-04.png
+│   │   ├── 🖼️ Memoji-05.png
+│   │   ├── 🖼️ Memoji-06.png
+│   │   ├── 🖼️ Memoji-07.png
+│   │   ├── 🖼️ Memoji-08.png
+│   │   ├── 🖼️ Memoji-09.png
+│   │   ├── 🖼️ Memoji-10.png
+│   │   ├── 🖼️ Memoji-11.png
+│   │   ├── 🖼️ Memoji-12.png
+│   │   ├── 🖼️ Memoji-13.png
+│   │   ├── 🖼️ Memoji-14.png
+│   │   ├── 🖼️ Memoji-15.png
+│   │   ├── 🖼️ Memoji-16.png
+│   │   ├── 🖼️ Memoji-17.png
+│   │   ├── 🖼️ Memoji-18.png
+│   │   ├── 🖼️ Memoji-19.png
+│   │   ├── 🖼️ Memoji-20.png
+│   │   ├── 🖼️ Memoji-21.png
+│   │   ├── 🖼️ Memoji-22.png
+│   │   ├── 🖼️ Memoji-23.png
+│   │   ├── 🖼️ Memoji-24.png
+│   │   ├── 🖼️ Memoji-25.png
+│   │   ├── 🖼️ Memoji-26.png
+│   │   ├── 🖼️ icon-128x128.png
+│   │   ├── 🖼️ icon-144x144.png
+│   │   ├── 🖼️ icon-152x152.png
+│   │   ├── 🖼️ icon-192x192.png
+│   │   ├── 🖼️ icon-256x256.png
+│   │   ├── 🖼️ icon-384x384.png
+│   │   ├── 🖼️ icon-48x48.png
+│   │   ├── 🖼️ icon-512x512.png
+│   │   ├── 🖼️ icon-72x72.png
+│   │   └── 🖼️ icon-96x96.png
+│   ├── 📁 image
+│   │   ├── 🖼️ Avatar.jpg
+│   │   ├── 🖼️ Flutterwave.png
+│   │   ├── 🖼️ ReviewImage.png
+│   │   ├── 🖼️ boardroom.png
+│   │   ├── 🖼️ booknowpic.jpg
+│   │   ├── 🖼️ burgar.jpg
+│   │   ├── 🖼️ charleson-building.jpg
+│   │   ├── 🖼️ charleson-hotel-exterior.webp
+│   │   ├── 🖼️ charleson-hotel-old-logo.jpeg
+│   │   ├── 🖼️ charlesonbar.jpg
+│   │   ├── 🖼️ chillingroom1.jpg
+│   │   ├── 🖼️ chillingroom2.jpg
+│   │   ├── 🖼️ chillingroom3.jpg
+│   │   ├── 🖼️ chillingroom5.jpg
+│   │   ├── 🖼️ deluxe-rooms.jpg
+│   │   ├── 🖼️ diplomatic-suites.jpg
+│   │   ├── 🖼️ executive-suite.jpg
+│   │   ├── 🖼️ fitnessImg.png
+│   │   ├── 🖼️ gympic.jpg
+│   │   ├── 🖼️ hotel-swimming-areas.jpg
+│   │   ├── 🖼️ hotel-view.jpg
+│   │   ├── 🖼️ hotels-pool.jpg
+│   │   ├── 🖼️ imperial-room.jpg
+│   │   ├── 🖼️ indomie.jpg
+│   │   ├── 🖼️ loungeImg.png
+│   │   ├── 🖼️ no-face.webp
+│   │   ├── 🖼️ outroom-view.jpg
+│   │   ├── 🖼️ paypal.png
+│   │   ├── 🖼️ pizza.jpg
+│   │   ├── 🖼️ poolpic.png
+│   │   ├── 🖼️ presidential-suite.jpg
+│   │   ├── 🖼️ restaurantImg.png
+│   │   ├── 🖼️ rice.jpg
+│   │   ├── 🖼️ room-cat.png
+│   │   ├── 🖼️ room-cat2.png
+│   │   ├── 🖼️ room-cat3.png
+│   │   ├── 🖼️ room-cat4.png
+│   │   ├── 🖼️ room1.jpg
+│   │   ├── 🖼️ room2.jpg
+│   │   ├── 🖼️ room3.jpg
+│   │   ├── 🖼️ room4.jpg
+│   │   ├── 🖼️ room5.jpg
+│   │   ├── 🖼️ room6.jpg
+│   │   ├── 🖼️ room7.jpg
+│   │   ├── 🖼️ salad.jpg
+│   │   ├── 🖼️ spaImg.png
+│   │   ├── 🖼️ spagetti.jpg
+│   │   ├── 🖼️ super-deluxe-room.jpg
+│   │   ├── 🖼️ testimony-pic-1.png
+│   │   ├── 🖼️ testimony-pic-2.png
+│   │   ├── 🖼️ testimony-pic-3.png
+│   │   ├── 🖼️ testimonypic.png
+│   │   ├── 🖼️ twin-bedroom.jpg
+│   │   └── 🖼️ wallet.png
+│   ├── 📁 svg
+│   │   ├── 🖼️ fail-caution.svg
+│   │   ├── 🖼️ input-box.svg
+│   │   ├── 🖼️ loading.svg
+│   │   ├── 🖼️ logo-alt-1.svg
+│   │   ├── 🖼️ logo.svg
+│   │   ├── 🖼️ love-light.svg
+│   │   ├── 🖼️ luggage-love.svg
+│   │   ├── 🖼️ quotationmarkfaceleft.svg
+│   │   ├── 🖼️ quotationmarkfaceright.svg
+│   │   └── 🖼️ success-check.svg
+│   ├── 📁 videos
+│   │   ├── 🎬 hotelvideo.mp4
+│   │   └── 🎬 hotelvideo.webm
+│   ├── ⚙️ .htaccess
+│   ├── 📄 favicon.ico
+│   ├── 🖼️ favicon.png
+│   ├── 🖼️ favicon.svg
+│   ├── ⚙️ manifest.json
+│   ├── 📄 robots.txt
+│   └── ⚙️ sitemap.xml
+├── 📁 src
+│   ├── 📁 api
+│   │   ├── 📁 hooks
+│   │   │   ├── 📄 types.ts
+│   │   │   ├── 📄 useAuth.ts
+│   │   │   ├── 📄 useBooking.ts
+│   │   │   ├── 📄 useContact.ts
+│   │   │   ├── 📄 useNotification.ts
+│   │   │   ├── 📄 usePayment.ts
+│   │   │   ├── 📄 useReviews.ts
+│   │   │   ├── 📄 useRoom.ts
+│   │   │   ├── 📄 useRoomTypes.ts
+│   │   │   └── 📄 useUpload.ts
+│   │   └── 📁 services
+│   │       ├── 📄 auth.service.ts
+│   │       ├── 📄 booking.service.ts
+│   │       ├── 📄 contact.service.ts
+│   │       ├── 📄 notification.service.ts
+│   │       ├── 📄 payment.service.ts
+│   │       ├── 📄 reviews.service.ts
+│   │       ├── 📄 rooms-types.service.ts
+│   │       ├── 📄 transaction.service.ts
+│   │       ├── 📄 types.ts
+│   │       ├── 📄 upload.service.ts
+│   │       └── 📄 wallet.service.ts
+│   ├── 📁 components
+│   │   ├── 📁 alert-banner
+│   │   │   └── 📄 page.tsx
+│   │   ├── 📁 calender
+│   │   │   └── 📄 index.tsx
+│   │   ├── 📁 checkbox
+│   │   │   └── 📄 index.tsx
+│   │   ├── 📁 country-select
+│   │   │   └── 📄 index.tsx
+│   │   ├── 📁 dashboard
+│   │   │   ├── 📁 navbar
+│   │   │   │   └── 📄 index.tsx
+│   │   │   └── 📁 sidemenu
+│   │   │       ├── 📄 index.tsx
+│   │   │       └── 📄 mobile.tsx
+│   │   ├── 📁 date-select
+│   │   │   └── 📄 index.tsx
+│   │   ├── 📁 file-upload
+│   │   │   ├── 📄 index.tsx
+│   │   │   └── 📄 useFileUpload.ts
+│   │   ├── 📁 foolist-context
+│   │   │   ├── 📄 foodlist-context.tsx
+│   │   │   └── 📄 foodlist.ts
+│   │   ├── 📁 form-stepper
+│   │   │   └── 📄 index.tsx
+│   │   ├── 📁 grid-gallery-viewer
+│   │   │   └── 📄 index.tsx
+│   │   ├── 📁 input
+│   │   │   ├── 📄 index.tsx
+│   │   │   └── 📄 useInput.ts
+│   │   ├── 📁 invoice
+│   │   │   └── 📄 index.tsx
+│   │   ├── 📁 logo
+│   │   │   └── 📄 index.tsx
+│   │   ├── 📁 modal
+│   │   │   ├── 📄 index.tsx
+│   │   │   └── 📄 useModal.tsx
+│   │   ├── 📁 more-overlay-menu
+│   │   │   └── 📄 index.tsx
+│   │   ├── 📁 profile-popover
+│   │   │   └── 📄 index.tsx
+│   │   ├── 📁 scroll-to-top
+│   │   │   └── 📄 index.tsx
+│   │   ├── 📁 select
+│   │   │   ├── 📄 index.tsx
+│   │   │   ├── 📄 select-guest-dropdown.tsx
+│   │   │   └── 📄 useSelect.ts
+│   │   ├── 📁 seo
+│   │   │   ├── 📄 seo.ts
+│   │   │   └── 📄 seo.tsx
+│   │   ├── 📁 status-indicator
+│   │   │   └── 📄 index.tsx
+│   │   ├── 📁 support-chat-ball
+│   │   │   └── 📄 index.tsx
+│   │   ├── 📁 toggle-switch
+│   │   │   └── 📄 index.tsx
+│   │   └── 📁 ui
+│   │       ├── 📄 dashed-line-animation.tsx
+│   │       ├── 📄 dot-loader.tsx
+│   │       ├── 📄 line-divider.tsx
+│   │       ├── 📄 loading-circle-spinner.tsx
+│   │       ├── 📄 profile-picture-random.tsx
+│   │       └── 📄 tooltip.tsx
+│   ├── 📁 config
+│   │   └── 📄 axios.ts
+│   ├── 📁 context
+│   │   └── 📁 theme
+│   │       └── 📄 index.tsx
+│   ├── 📁 data
+│   │   └── 📄 events.ts
+│   ├── 📁 hooks
+│   │   ├── 📄 use-pwa-install-prompt.ts
+│   │   └── 📄 use-storage.ts
+│   ├── 📁 json
+│   │   └── ⚙️ countries-list.json
+│   ├── 📁 layout
+│   │   ├── 📁 footer
+│   │   │   └── 📄 index.tsx
+│   │   ├── 📁 loading
+│   │   │   └── 📄 index.tsx
+│   │   ├── 📁 not-found
+│   │   │   └── 📄 index.tsx
+│   │   ├── 📁 portal-root
+│   │   │   └── 📄 index.tsx
+│   │   └── 📁 top-nav-bar
+│   │       ├── 📄 index.tsx
+│   │       ├── 📄 menu-data.ts
+│   │       └── 📄 nav-item.tsx
+│   ├── 📁 lottie
+│   │   └── ⚙️ travel-icons.json
+│   ├── 📁 pages
+│   │   ├── 📁 about
+│   │   │   └── 📄 index.tsx
+│   │   ├── 📁 auth
+│   │   │   ├── 📁 forgot-password
+│   │   │   │   └── 📄 index.tsx
+│   │   │   ├── 📁 google-verify
+│   │   │   │   └── 📄 index.tsx
+│   │   │   ├── 📁 handler
+│   │   │   │   └── 📄 index.tsx
+│   │   │   ├── 📁 login
+│   │   │   │   └── 📄 index.tsx
+│   │   │   ├── 📁 register
+│   │   │   │   └── 📄 index.tsx
+│   │   │   ├── 📁 reset-password
+│   │   │   │   └── 📄 index.tsx
+│   │   │   ├── 📁 send-verification-code
+│   │   │   │   └── 📄 index.tsx
+│   │   │   └── 📁 verification
+│   │   │       └── 📄 index.tsx
+│   │   ├── 📁 booking-confirmation
+│   │   │   ├── 📄 booking-cancelled.tsx
+│   │   │   └── 📄 index.tsx
+│   │   ├── 📁 contact-us
+│   │   │   └── 📄 index.tsx
+│   │   ├── 📁 dashboard
+│   │   │   ├── 📁 lost-and-found
+│   │   │   │   ├── 📄 index.tsx
+│   │   │   │   └── 📄 report-lost-item.tsx
+│   │   │   ├── 📁 payment-methods
+│   │   │   │   ├── 📄 index.tsx
+│   │   │   │   └── 📄 payment-history.tsx
+│   │   │   ├── 📁 personal-data
+│   │   │   │   └── 📄 index.tsx
+│   │   │   ├── 📁 reservations
+│   │   │   │   ├── 📁 details
+│   │   │   │   │   ├── 📁 request-service
+│   │   │   │   │   │   └── 📄 index.tsx
+│   │   │   │   │   ├── 📄 download-page.tsx
+│   │   │   │   │   ├── 📄 index.tsx
+│   │   │   │   │   ├── 📄 invoice.tsx
+│   │   │   │   │   └── 📄 skeleton-loader.tsx
+│   │   │   │   ├── 📄 empty-state.tsx
+│   │   │   │   ├── 📄 index.tsx
+│   │   │   │   ├── 📄 mobile-chat.tsx
+│   │   │   │   └── 📄 skeleton-loader.tsx
+│   │   │   ├── 📁 reviews
+│   │   │   │   ├── 📄 empty-state.tsx
+│   │   │   │   ├── 📄 index.tsx
+│   │   │   │   └── 📄 write-review.tsx
+│   │   │   ├── 📁 settings
+│   │   │   │   ├── 📁 change-password
+│   │   │   │   │   └── 📄 index.tsx
+│   │   │   │   ├── 📁 data
+│   │   │   │   │   └── 📄 index.ts
+│   │   │   │   ├── 📁 kyc
+│   │   │   │   │   ├── 📁 steps
+│   │   │   │   │   │   ├── 📄 first-step.tsx
+│   │   │   │   │   │   └── 📄 second-step.tsx
+│   │   │   │   │   └── 📄 index.tsx
+│   │   │   │   └── 📄 index.tsx
+│   │   │   ├── 📁 support
+│   │   │   │   └── 📄 index.tsx
+│   │   │   ├── 📁 wish-lists
+│   │   │   │   ├── 📄 empty-state.tsx
+│   │   │   │   └── 📄 index.tsx
+│   │   │   └── 📄 index.tsx
+│   │   ├── 📁 event-detail
+│   │   │   └── 📄 index.tsx
+│   │   ├── 📁 events
+│   │   │   └── 📄 index.tsx
+│   │   ├── 📁 home
+│   │   │   └── 📄 index.tsx
+│   │   ├── 📁 payment-booking
+│   │   │   └── 📄 index.tsx
+│   │   ├── 📁 room-details
+│   │   │   └── 📄 index.tsx
+│   │   ├── 📁 rooms
+│   │   │   └── 📄 index.tsx
+│   │   ├── 📁 services
+│   │   │   └── 📄 index.tsx
+│   │   └── 📁 terms-of-use
+│   │       └── 📄 index.tsx
+│   ├── 📁 routes
+│   │   ├── 📄 protected.tsx
+│   │   └── 📄 routes.tsx
+│   ├── 📁 sections
+│   │   ├── 📁 active-reservations
+│   │   │   ├── 📄 concierge-options.tsx
+│   │   │   └── 📄 messenger.tsx
+│   │   ├── 📁 application-steps
+│   │   │   ├── 📄 step-one.tsx
+│   │   │   └── 📄 step-two.tsx
+│   │   ├── 📁 event
+│   │   │   ├── 📄 event-card.tsx
+│   │   │   ├── 📄 event-contact.tsx
+│   │   │   ├── 📄 event-details-hero.tsx
+│   │   │   ├── 📄 event-gallery.tsx
+│   │   │   ├── 📄 event-info.tsx
+│   │   │   └── 📄 event-story-writeup.tsx
+│   │   ├── 📁 home-page
+│   │   │   ├── 📄 about-charleson-hotel.tsx
+│   │   │   ├── 📄 book-now-section.tsx
+│   │   │   ├── 📄 explore-hotel-feature.tsx
+│   │   │   ├── 📄 featured-rooms.tsx
+│   │   │   ├── 📄 hotel-services.tsx
+│   │   │   └── 📄 testimonial.tsx
+│   │   ├── 📁 room-id-page
+│   │   │   ├── 📄 policies-page.tsx
+│   │   │   ├── 📄 review-testimony-page.tsx
+│   │   │   └── 📄 similar-rooms.tsx
+│   │   ├── 📁 rooms-page
+│   │   │   ├── 📄 filter-sidebar.tsx
+│   │   │   ├── 📄 room-cat.tsx
+│   │   │   ├── 📄 room-list.tsx
+│   │   │   └── 📄 rooms-cards.tsx
+│   │   └── 📁 service-page
+│   │       ├── 📄 food-list-type.ts
+│   │       └── 📄 service-id.tsx
+│   ├── 📁 store
+│   │   ├── 📄 auth.tsx
+│   │   ├── 📄 booking.tsx
+│   │   ├── 📄 support.tsx
+│   │   └── 📄 types.ts
+│   ├── 📁 styles
+│   │   ├── 🎨 bg.css
+│   │   ├── 🎨 calender.css
+│   │   ├── 🎨 globals.css
+│   │   ├── 🎨 libraries.css
+│   │   └── 🎨 tailwind.css
+│   ├── 📁 types
+│   │   ├── 📄 event.ts
+│   │   └── 📄 swiper.d.ts
+│   ├── 📁 utils
+│   │   ├── 📄 calculate-night-stay.ts
+│   │   ├── 📄 crypt.ts
+│   │   ├── 📄 download-invoice.ts
+│   │   ├── 📄 format-date.ts
+│   │   ├── 📄 format-number.ts
+│   │   ├── 📄 format-time.ts
+│   │   ├── 📄 formatting.ts
+│   │   ├── 📄 generate-invoice-html.ts
+│   │   ├── 📄 generate-query-params.ts
+│   │   ├── 📄 get-icon-by-word.ts
+│   │   ├── 📄 get-time.ts
+│   │   ├── 📄 group-transaction-by-date.ts
+│   │   ├── 📄 redirects.ts
+│   │   ├── 📄 resolve-path.ts
+│   │   └── 📄 validate-password.ts
+│   ├── 📄 App.tsx
+│   ├── 📄 global.d.ts
+│   ├── 📄 main.tsx
+│   └── 📄 vite-env.d.ts
+├── ⚙️ .gitignore
+├── ⚙️ .prettierignore
+├── ⚙️ .prettierrc.yaml
+├── 📝 README.md
+├── 📄 eslint.config.js
+├── 📝 file-tree.md
+├── 🌐 index.html
+├── ⚙️ netlify.toml
+├── ⚙️ package.json
+├── ⚙️ pnpm-lock.yaml
+├── 📄 postcss.config.mjs
+├── 📄 tailwind.config.ts
+├── ⚙️ tsconfig.app.json
+├── ⚙️ tsconfig.json
+├── ⚙️ tsconfig.node.json
+├── ⚙️ vercel.json
+└── 📄 vite.config.ts
+```
+
+---
+*Generated by FileTree Pro Extension*

@@ -1,0 +1,187 @@
+:root {
+  --light: 255, 255, 255; /* #FFFFFF  */
+  --primary: 205, 167, 92; /* #CDA75C */
+  --secondary: 113, 61, 59; /* #713d3b */
+  --accent: 82, 82, 82; /* #525252 */
+  --text: 27, 28, 22; /* #1B1C16 */
+  --grey: 156, 164, 171; /* #9CA4AB  */
+  --error: 255, 60, 34; /* #FF3C22 */
+  --warning: 255, 255, 0; /* #ffff00 */
+  --success: 79, 191, 103; /* #4FBF67 */
+  --info: 0, 0, 255; /* #0000ff */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+*::-webkit-scrollbar {
+  width: 2px;
+  scrollbar-width: "thin";
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--light);
+}
+
+*::-webkit-scrollbar-thumb {
+  background: rgba(var(--primary), 0.05);
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: rgba(var(--primary), 0.05);
+}
+
+html.light {
+  --light: 255, 255, 255; /* #FFFFFF  */
+  --primary: 205, 167, 92; /* #CDA75C */
+  --secondary: 113, 61, 59; /* #713d3b */
+  --accent: 82, 82, 82; /* #525252 */
+  --text: 27, 28, 22; /* #1B1C16 */
+  --grey: 156, 164, 171; /* #9CA4AB  */
+  --error: 255, 60, 34; /* #FF3C22 */
+  --warning: 255, 255, 0; /* #ffff00 */
+  --success: 79, 191, 103; /* #4FBF67 */
+  --info: 0, 0, 255; /* #0000ff */
+}
+
+html.dark {
+  --light: 255, 255, 255; /* #FFFFFF  */
+  --primary: 205, 167, 92; /* #CDA75C */
+  --secondary: 113, 61, 59; /* #713d3b */
+  --accent: 82, 82, 82; /* #525252 */
+  --text: 27, 28, 22; /* #1B1C16 */
+  --grey: 156, 164, 171; /* #9CA4AB  */
+  --error: 255, 60, 34; /* #FF3C22 */
+  --warning: 255, 255, 0; /* #ffff00 */
+  --success: 79, 191, 103; /* #4FBF67 */
+  --info: 0, 0, 255; /* #0000ff */
+}
+
+html {
+  overflow-x: hidden;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  background: linear-gradient(rgba(var(--light-200)), rgba(var(--light-300)));
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: rgba(var(--text));
+}
+
+html[class] body {
+  display: block;
+  height: 100dvh;
+  position: relative;
+}
+
+#root {
+  height: 0dvh;
+  overflow: hidden;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  width: 100%;
+  /* height: 100vh; */
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-size: 15px;
+}
+
+.font-lora {
+  font-family: "Lora", serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.header-font,
+.font-open-sans {
+  font-family: "Lora", serif;
+}
+
+.font-manrope,
+.font-body {
+  font-family: "Manrope", sans-serif;
+}
+
+button:disabled {
+  cursor: not-allowed !important;
+  opacity: 0.6 !important;
+}
+
+/* Remove Chrome's default autofill background color */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px transparent inset !important;
+  -webkit-text-fill-color: rgba(var(--text)) !important;
+  transition: background-color 5000s ease-in-out 0s;
+  background-color: transparent !important;
+}
+
+.wrapper,
+.container {
+  width: 98%;
+  max-width: 1250px;
+  margin: auto;
+  height: 100%;
+}
+
+.sub-header {
+  position: relative;
+}
+
+.sub-header::before {
+  content: "";
+  top: 50%;
+  left: -45px;
+  position: absolute;
+  width: 40px;
+  height: 1.5px;
+  background: rgba(var(--text));
+  display: block;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 650px) {
+  body {
+    font-size: 14px;
+  }
+
+  .sub-header::before {
+    left: -25%;
+    width: 30px;
+  }
+}
+
+/* 
+CLEAR DEFAULTS AND WATERMARK
+*/
+
+body.font-lora {
+  background: #000 !important;
+}
+
+iframe[src*="tawk.to"] {
+  bottom: 100px !important;
+  left: 40px !important;
+}
+
+iframe[src*="http://localhost:5000/about:blank"]
+{
+  bottom: 100px !important;
+  left: 40px !important;
+}
+
+.label-dzbd7lyV:hover .label__link-dzbd7lyV {
+  display: none !important;
+}
